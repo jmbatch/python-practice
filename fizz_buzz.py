@@ -1,0 +1,14 @@
+def fizz_buzz(input):
+    if input % 3 == 0 and input % 5 == 0:
+        return "Fizz Buzz"
+    if input % 3 == 0:
+        return "Fizz"
+    if input % 5 == 0:
+        return "Buzz"
+    return input
+
+print(fizz_buzz(9))
+print(fizz_buzz(20))
+print(fizz_buzz(15))
+print(fizz_buzz(2))
+        
